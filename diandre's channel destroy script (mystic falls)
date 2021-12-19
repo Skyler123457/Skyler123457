@@ -1,0 +1,8 @@
+while true do
+  local Player = game.Players.LocalPlayer
+    local Character = Player.Character
+
+    local Channel = Character:WaitForChild("Channeling")
+    Channel:Destroy()
+  wait("0.01")
+end
