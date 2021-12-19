@@ -1,0 +1,2 @@
+game.Players.LocalPlayer.UserId = "Ownedidhere"
+(replace ownerid with the id of the owner of game)
