@@ -1,0 +1,114 @@
+--  by Skyler <3
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Background = Instance.new("Frame")
+local Discord = Instance.new("TextBox")
+local key = Instance.new("TextBox")
+local enter = Instance.new("TextButton")
+local login = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Coregui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.406605929, 0, 0.224648982, 0)
+Frame.Size = UDim2.new(0, 245, 0, 301)
+Frame.Visible = false
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0888057053, 0, 0.503262639, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "test"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0888057053, 0, 0.267905742, 0)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "test"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0888057053, 0, 0.031149447, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "test"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+Background.Name = "Background"
+Background.Parent = ScreenGui
+Background.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Background.Position = UDim2.new(0.304100275, 0, 0.174726993, 0)
+Background.Size = UDim2.new(0, 275, 0, 377)
+if username.Text == "key" and password.Text == "Ate" then
+	Background.Visible = false
+	Frame.Visible = true
+	
+end
+
+Discord.Name = "Discord"
+Discord.Parent = Background
+Discord.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Discord.BorderSizePixel = 0
+Discord.Position = UDim2.new(0.111538649, 0, 0.247723013, 0)
+Discord.Size = UDim2.new(0, 200, 0, 50)
+Discord.Font = Enum.Font.SourceSans
+Discord.Text = "Discord goes here"
+Discord.TextColor3 = Color3.fromRGB(254, 251, 245)
+Discord.TextScaled = true
+Discord.TextSize = 21.000
+Discord.TextWrapped = true
+
+key.Name = "key"
+key.Parent = Background
+key.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+key.BackgroundTransparency = 1.000
+key.BorderSizePixel = 0
+key.Position = UDim2.new(0.111538641, 0, 0.447737873, 0)
+key.Size = UDim2.new(0, 172, 0, 50)
+key.Font = Enum.Font.Nunito
+key.Text = "key"
+key.TextColor3 = Color3.fromRGB(249, 249, 249)
+key.TextScaled = true
+key.TextSize = 14.000
+key.TextWrapped = true
+
+enter.Name = "enter"
+enter.Parent = Background
+enter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+enter.BackgroundTransparency = 1.000
+enter.BorderSizePixel = 0
+enter.Position = UDim2.new(0.137693107, 0, 0.625746429, 0)
+enter.Size = UDim2.new(0, 200, 0, 50)
+enter.Font = Enum.Font.SciFi
+enter.Text = "Enter"
+enter.TextColor3 = Color3.fromRGB(254, 254, 254)
+enter.TextScaled = true
+enter.TextSize = 14.000
+enter.TextWrapped = true
+
+login.Name = "login"
+login.Parent = Background
+login.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+login.BorderColor3 = Color3.fromRGB(0, 0, 0)
+login.Position = UDim2.new(0.0699192211, 0, 0.0553553179, 0)
+login.Size = UDim2.new(0, 236, 0, 50)
+login.Font = Enum.Font.Oswald
+login.Text = "Login "
+login.TextColor3 = Color3.fromRGB(254, 248, 247)
+login.TextScaled = true
+login.TextSize = 14.000
+login.TextWrapped = true
